@@ -1,3 +1,4 @@
+import Features from "./components/Features";
 import Navbar from "./components/Navbar";
 
 function App() {
@@ -5,6 +6,9 @@ function App() {
     <div className="bg-[#050506] min-h-screen">
       <div>
         <Navbar />
+      </div>
+      <div>
+        <Features />
       </div>
     </div>
   );

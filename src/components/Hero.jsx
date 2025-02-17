@@ -39,7 +39,7 @@ const Hero = () => {
           <img src="/Property-1.png" alt="brand" />
         </Marquee>
       </div>
-      <div className="py-2 border border-red-500">
+      <div className="py-2">
         <h2>Adtask AI works with :</h2>
         <div className="grid grid-cols-3 md:grid-cols-6 gap-4 mt-4 w-[930px] mx-auto">
           <div className="group flex flex-col items-center">
