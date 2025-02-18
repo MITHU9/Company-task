@@ -1,5 +1,6 @@
 import Contact from "./components/Contact";
 import Features from "./components/Features";
+import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Schedule from "./components/Schedule";
 import Services from "./components/Services";
@@ -25,6 +26,9 @@ function App() {
       </div>
       <div>
         <Schedule />
+      </div>
+      <div>
+        <Footer />
       </div>
     </div>
   );
