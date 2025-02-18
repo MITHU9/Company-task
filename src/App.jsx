@@ -1,5 +1,6 @@
 import Features from "./components/Features";
 import Navbar from "./components/Navbar";
+import Services from "./components/Services";
 
 function App() {
   return (
@@ -7,8 +8,11 @@ function App() {
       <div>
         <Navbar />
       </div>
-      <div>
+      <div className="border">
         <Features />
+      </div>
+      <div>
+        <Services />
       </div>
     </div>
   );

@@ -39,8 +39,8 @@ const Hero = () => {
           <img src="/Property-1.png" alt="brand" />
         </Marquee>
       </div>
-      <div className="py-2">
-        <h2>Adtask AI works with :</h2>
+      <div className="pb-10 ">
+        <h2 className="text-white text-center py-5">Adtask AI works with :</h2>
         <div className="grid grid-cols-3 md:grid-cols-6 gap-4 mt-4 w-[930px] mx-auto">
           <div className="group flex flex-col items-center">
             {/* Icon Container */}
@@ -62,7 +62,7 @@ const Hero = () => {
             </div>
 
             {/* Label with Smooth Hover Effect */}
-            <div className="border -mt-3 hidden group-hover:block transition-all duration-1000">
+            <div className="border -mt-3 opacity-0 group-hover:opacity-100 transition-all duration-1000">
               <span className="text-white">Google Ads</span>
             </div>
           </div>
@@ -102,7 +102,7 @@ const Hero = () => {
                 </div>
               </div>
             </div>
-            <div className="border -mt-3 hidden group-hover:block transition-all duration-1000">
+            <div className="border -mt-3 opacity-0 group-hover:opacity-100 transition-all duration-1000">
               <span className="text-white">Meta</span>
             </div>
           </div>
@@ -123,7 +123,7 @@ const Hero = () => {
                 </div>
               </div>
             </div>
-            <div className="border -mt-3 hidden group-hover:block transition-all duration-1000">
+            <div className="border -mt-3 opacity-0 group-hover:opacity-100 transition-all duration-1000">
               <span className="text-white">Linkedin Ads</span>
             </div>
           </div>
@@ -144,7 +144,7 @@ const Hero = () => {
                 </div>
               </div>
             </div>
-            <div className="border -mt-3 hidden group-hover:block transition-all duration-1000">
+            <div className="border -mt-3 opacity-0 group-hover:opacity-100 transition-all duration-1000">
               <span className="text-white">Amazon Ads</span>
             </div>
           </div>
@@ -165,7 +165,7 @@ const Hero = () => {
                 </div>
               </div>
             </div>
-            <div className="border -mt-3 hidden group-hover:block transition-all duration-1000">
+            <div className="border -mt-3 opacity-0 group-hover:opacity-100 transition-all duration-1000">
               <span className="text-white">X/Twitter</span>
             </div>
           </div>
