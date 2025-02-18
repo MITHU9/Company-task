@@ -18,7 +18,7 @@ const Features = () => {
         <p className="text-gray-400 z-30 relative max-w-2xl mx-auto mt-4">
           Experience Intelligent Features to optimize your marketing efforts.
         </p>
-        <div className="w-[500px] h-[240px] mx-auto rounded-[200px] absolute bottom-0 bg right-0 left-0 top-50">
+        <div className="w-[500px] h-[400px] mx-auto rounded-[200px] absolute bottom-0 bg right-0 left-0 top-40">
           <img
             src="/Ellipse-1.png"
             alt="img"

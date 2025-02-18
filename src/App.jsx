@@ -1,6 +1,7 @@
 import Features from "./components/Features";
 import Navbar from "./components/Navbar";
 import Services from "./components/Services";
+import Testimonials from "./components/Testimonials";
 
 function App() {
   return (
@@ -13,6 +14,9 @@ function App() {
       </div>
       <div>
         <Services />
+      </div>
+      <div>
+        <Testimonials />
       </div>
     </div>
   );
