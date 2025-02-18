@@ -1,6 +1,7 @@
 import Contact from "./components/Contact";
 import Features from "./components/Features";
 import Navbar from "./components/Navbar";
+import Schedule from "./components/Schedule";
 import Services from "./components/Services";
 import Testimonials from "./components/Testimonials";
 
@@ -21,6 +22,9 @@ function App() {
       </div>
       <div>
         <Contact />
+      </div>
+      <div>
+        <Schedule />
       </div>
     </div>
   );
