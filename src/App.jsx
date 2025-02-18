@@ -1,3 +1,4 @@
+import Contact from "./components/Contact";
 import Features from "./components/Features";
 import Navbar from "./components/Navbar";
 import Services from "./components/Services";
@@ -17,6 +18,9 @@ function App() {
       </div>
       <div>
         <Testimonials />
+      </div>
+      <div>
+        <Contact />
       </div>
     </div>
   );
