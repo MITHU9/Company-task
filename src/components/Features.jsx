@@ -6,19 +6,21 @@ const Features = () => {
           Features
         </h2>
         <div className="flex justify-evenly items-center">
-          <div className="w-[218px] h-1 bg-gradient-to-r from-[#0D111A]  to-[#5C73AE] rounded-3xl"></div>
+          <div className="w-[218px] h-1 bg-gradient-to-r from-[#0D111A]  to-[#5C73AE] rounded-3xl hidden md:block"></div>
           <div>
-            <h2 className="font-semibold text-4xl">Feature packed to make</h2>
-            <h3 className="font-semibold text-4xl bg-gradient-to-r from-[#7687B5] via-#91B0FF] to-[#E2E8F8] bg-clip-text text-transparent z-30 relative">
+            <h2 className="font-semibold text-3xl md:text-4xl">
+              Feature packed to make
+            </h2>
+            <h3 className="font-semibold text-3xl md:text-4xl bg-gradient-to-r from-[#7687B5] via-#91B0FF] to-[#E2E8F8] bg-clip-text text-transparent z-30 relative">
               Digital marketing easier and affordable.
             </h3>
           </div>
-          <div className="w-[218px] h-1 bg-gradient-to-r from-[#5C73AE] to-[#0D111A] rounded-3xl"></div>
+          <div className="w-[218px] h-1 bg-gradient-to-r from-[#5C73AE] to-[#0D111A] rounded-3xl hidden md:block"></div>
         </div>
         <p className="text-gray-400 z-30 relative max-w-2xl mx-auto mt-4">
           Experience Intelligent Features to optimize your marketing efforts.
         </p>
-        <div className="w-[500px] h-[400px] mx-auto rounded-[200px] absolute bottom-0 bg right-0 left-0 top-40">
+        <div className="md:w-[500px] h-[400px] mx-auto rounded-[200px] absolute bottom-0 bg right-0 left-0 top-40">
           <img
             src="/Ellipse-1.png"
             alt="img"
@@ -47,6 +49,9 @@ const Features = () => {
                   <div className="absolute top-[240px] left-[200px]">
                     <div className="size-2 bg-white rounded-full"></div>
                   </div>
+
+                  <div className="absolute size-60 top-[180px] left-[90px] rounded-full bg-gradient-to-r from-[#7687B5] to-[#333B4F] z-20 animate-ping [animation-duration:2s] "></div>
+
                   <div className="absolute top-[243px] left-[90px]">
                     <img src="/radar-circle.png" alt="radar" />
                   </div>
@@ -66,8 +71,8 @@ const Features = () => {
           </div>
         </div>
 
-        <div className="flex lg:flex-col gap-4 order-3 lg:order-2 col-span-2 lg:col-span-1 h-[300px] lg:h-full">
-          <div className="relative w-1/2 lg:w-full lg:h-1/2">
+        <div className="flex flex-col md:flex-row lg:flex-col gap-4 order-3 lg:order-2 md:col-span-2 h-[593px] lg:col-span-1 md:h-[300px] lg:h-full">
+          <div className="relative w-full md:w-1/2 md:h-full lg:w-full h-1/2">
             <div className="absolute inset-0 bg-gradient-to-r from-[#333B4F] to-[#7687B5] rounded-lg p-[1px]">
               <div className="h-full w-full bg-gradient-to-b from-[#0B0B0B] to-[#1D2333] rounded-lg">
                 <div
@@ -98,10 +103,10 @@ const Features = () => {
                       </div>
                     </div>
                     <div className="absolute top-16 -right-5 p-3">
-                      <h3 className="text-center bg-gradient-to-r from-[#FFFFFF] to-[#5C73AE] bg-clip-text text-transparent">
+                      <h3 className="text-center text-sm ml-1 bg-gradient-to-r from-[#FFFFFF] to-[#5C73AE] bg-clip-text text-transparent">
                         GEN AI Powered
                       </h3>
-                      <div className="w-[162px] lg:w-[155px] h-[2px] bg-white/50"></div>
+                      <div className="w-[123px] md:w-[162px] lg:w-[155px] h-[2px] bg-white/50"></div>
                     </div>
                   </div>
                   <div className="text-white absolute bottom-0 p-3">
@@ -118,7 +123,8 @@ const Features = () => {
               </div>
             </div>
           </div>
-          <div className="relative w-1/2 lg:w-full lg:h-1/2">
+
+          <div className="relative w-full md:w-1/2 md:h-full lg:w-full h-1/2 ">
             <div className="absolute inset-0 bg-gradient-to-r from-[#333B4F] to-[#7687B5] rounded-lg p-[1px]">
               <div className="h-full w-full bg-gradient-to-b from-[#0B0B0B] to-[#1D2333] rounded-lg">
                 <div

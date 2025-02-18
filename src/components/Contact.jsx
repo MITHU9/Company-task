@@ -6,13 +6,13 @@ const Contact = () => {
   return (
     <div className="max-w-7xl mx-auto mt-24">
       <div>
-        <h2 className=" bg-gradient-to-r from-[#8E8D8D]/20 to-[#282828]/40 w-[130px] font-bold mx-auto py-3 px-4 rounded-3xl uppercase mb-2 text-white text-center">
-          Features
+        <h2 className=" bg-gradient-to-r from-[#8E8D8D]/20 to-[#282828]/40 w-[130px] font-bold mx-auto py-3 px-4 rounded-3xl uppercase mb-10 text-white text-center">
+          Contact
         </h2>
       </div>
 
-      <div className="flex justify-evenly p-4">
-        <div className="w-1/2 relative">
+      <div className="flex justify-evenly flex-col md:flex-row p-4">
+        <div className="md:w-1/2 relative">
           <div className="pr-8">
             <h2 className="font-semibold text-white text-4xl">
               Ask whatever you have
@@ -24,7 +24,7 @@ const Contact = () => {
               Whether you have questions or are ready to discuss your business,
               we’re here to help. Reach out today.
             </p>
-            <div className="w-[500px] mx-auto absolute -top-5 left-0 ">
+            <div className="md:w-[500px] mx-auto absolute -top-5 left-0 ">
               <img
                 src="/Ellipse-1.png"
                 alt="img"
@@ -49,7 +49,7 @@ const Contact = () => {
           </div>
         </div>
 
-        <div className="border w-1/2 ">
+        <div className="border md:w-1/2 mt-8 md:mt-0">
           <div>
             <span className="text-white">Name</span>
             <input

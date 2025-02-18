@@ -2,8 +2,8 @@ const Schedule = () => {
   return (
     <div className="max-w-7xl mx-auto mt-40">
       <div>
-        <div className="flex justify-center items-center">
-          <img src="/public/AdTask.ai-u.png" alt="logo" />
+        <div className="flex justify-center items-center px-2">
+          <img src="/AdTask.ai-u.png" alt="logo" />
         </div>
       </div>
 
@@ -18,7 +18,7 @@ const Schedule = () => {
         <div className="flex flex-col justify-center items-center">
           <div className="text-center">
             <button
-              className="text-white border-2 bg-[#7687B5] relative border-[#bac0d0] px-12 py-3 rounded-full"
+              className="text-white border-2 bg-[#7687B54A] relative border-[#bac0d0] px-12 py-3 rounded-full"
               style={{
                 backgroundImage: "url(/gifimg.gif)",
               }}

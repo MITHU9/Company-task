@@ -15,8 +15,8 @@ const Navbar = () => {
         <div className="max-w-7xl border border-[#FFFFFF]/10 shadow-md rounded-2xl bg-[#0E0F0F] mx-auto px-4 text-white sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-14">
             <div className="flex items-center">
-              <a href="/" className="text-xl font-bold text-gray-200">
-                <img src="/adTask.ai.png" alt="logo" />
+              <a href="/" className="text-xl font-bold text-gray-200 ">
+                <img src="/adTask.ai.png" alt="logo" className="w-30" />
               </a>
             </div>
             <div className="hidden md:flex space-x-6 items-center">

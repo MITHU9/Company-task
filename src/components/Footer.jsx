@@ -4,8 +4,8 @@ import { MdEmail } from "react-icons/md";
 const Footer = () => {
   return (
     <div>
-      <div className="max-w-7xl mx-auto mt-24 px-8 py-4 grid grid-cols-1 md:grid-cols-3 gap-4 place-items-center ">
-        <div>
+      <div className="max-w-7xl mx-auto mt-24 px-8 py-4 grid grid-cols-2 md:grid-cols-3 gap-4 place-items-center ">
+        <div className="order-3 md:order-1 col-span-2 md:col-span-1">
           <h2 className="text-6xl text-white py-4">
             ad<span className="font-semibold">Task</span>.ai
           </h2>
@@ -19,7 +19,8 @@ const Footer = () => {
             <span>San Francisco Bay Area</span>
           </div>
         </div>
-        <div>
+
+        <div className="order-1 md:order-2">
           <h2 className="text-xl font-semibold text-white pb-2">Utilities</h2>
           <ul className="text-white/60 leading-6 ">
             <li>Home</li>
@@ -29,7 +30,8 @@ const Footer = () => {
             <li>Schedule</li>
           </ul>
         </div>
-        <div>
+
+        <div className="order-2 md:order-3">
           <h2 className="text-xl text-white font-semibold pb-2">Social</h2>
           <ul className="text-white/60 leading-6">
             <li>Facebook</li>

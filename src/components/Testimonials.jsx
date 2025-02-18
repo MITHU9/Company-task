@@ -6,19 +6,19 @@ const Testimonials = () => {
           Testimonials
         </h2>
         <div className="flex justify-evenly items-center">
-          <div className="w-[218px] h-1 bg-gradient-to-r from-[#0D111A]  to-[#5C73AE] rounded-3xl"></div>
+          <div className="w-[100px] md:w-[218px] h-1 bg-gradient-to-r from-[#0D111A]  to-[#5C73AE] rounded-3xl "></div>
           <div>
             <h2 className="font-semibold text-4xl">Trusted by</h2>
             <h3 className="font-semibold text-4xl bg-gradient-to-r from-[#7687B5] via-#91B0FF] to-[#E2E8F8] bg-clip-text text-transparent z-30 relative">
               satisfied clients
             </h3>
           </div>
-          <div className="w-[218px] h-1 bg-gradient-to-r from-[#5C73AE] to-[#0D111A] rounded-3xl"></div>
+          <div className="w-[100px] md:w-[218px] h-1 bg-gradient-to-r from-[#5C73AE] to-[#0D111A] rounded-3xl "></div>
         </div>
         <p className="text-gray-400 z-30 relative max-w-2xl mx-auto mt-4">
           Discover how we’ve driven growth and innovation.
         </p>
-        <div className="w-[500px] h-[400px] mx-auto absolute bottom-0 bg right-0 left-0 top-40">
+        <div className="md:w-[500px] h-[400px] mx-auto absolute bottom-0 bg right-0 left-0 top-40">
           <img
             src="/Ellipse-1.png"
             alt="img"

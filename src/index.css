@@ -1,16 +1,6 @@
-@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-@keyframes borderAnimation {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
+@import "tailwindcss";
 
 @layer base {
   .nav-item {
@@ -19,4 +9,78 @@
   .hero-ring {
     @apply absolute inset-0  border-2 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rounded-full border-white/8 shadow-[0_0_80px_inset] shadow-emerald-300/5;
   }
+}
+
+* {
+  font-family: "Poppins", serif;
+}
+
+@layer utilities {
+  .border-gradient {
+    border-image: linear-gradient(#5c73ae, #0a090d, #5c73ae) 1;
+  }
+  .service-card {
+    background-image: url("./assets/cardShadow.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: drop-shadow(0px 0px 60px rgba(92, 115, 174, 0.594));
+    background-size: cover;
+  }
+  /* Default: Hide all images */
+  .animate-hero-logo > img {
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+  }
+
+  /* Sequential fading effect on hover */
+  .animate-hero-logo:hover .logo-serial-1 {
+    animation: fadeSequence 4s 0s infinite;
+    transition: opacity 0.4s ease;
+  }
+
+  .animate-hero-logo:hover .logo-serial-2 {
+    animation: fadeSequence 4s 1.33s infinite;
+    transition: opacity 0.4s ease;
+  }
+
+  /* Keyframes for fading sequence */
+  @keyframes fadeSequence {
+    0%,
+    100% {
+      opacity: 1;
+    }
+    33% {
+      opacity: 0;
+    }
+  }
+  /* Blaze animations */
+  .blaze {
+    position: absolute;
+    animation: blazeAnimate 2.5s linear infinite;
+  }
+
+  /* Keyframes for continuous left-to-right movement */
+  @keyframes blazeAnimate {
+    0% {
+      left: -40%;
+    }
+    50% {
+      left: 100%;
+    }
+    100% {
+      left: 100%;
+    }
+  }
+
+  /* Keyframes for smooth moving border */
+  @keyframes runningBorder {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 200% 50%;
+    }
+  }
+  /* ========================== */
 }
